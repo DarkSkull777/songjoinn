@@ -1,0 +1,15 @@
+---
+application:
+  name: "skull7-userbot"
+  project: "skull7-userbot"
+  organization: "BraveXploiter"
+databases:
+- type: "MONGODB"
+  name: "skull7-userbot"
+  version: "4.4"
+routers:
+- name: "main-skull7-userbot"
+  routes:
+  - application_name: "skull7-userbot"
+    paths:
+    - "/*"
